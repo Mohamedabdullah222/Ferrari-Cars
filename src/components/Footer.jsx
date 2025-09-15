@@ -70,7 +70,7 @@ const Footer = () => {
             <FaGithub className="bg-[#1E1E1E] text-white p-1 rounded-lg size-10 cursor-pointer hover:bg-transparent hover:scale-110 transition duration-300" />
           </a>
           <a
-            href="https://linkedin.com/in/mohamed-abdullah-m"
+            href="https://www.linkedin.com/in/mohamed-abdullah-m/"
             target="_blank"
           >
             <FaLinkedin className="bg-[#1E1E1E] text-white p-1 rounded-lg size-10 cursor-pointer hover:bg-transparent hover:scale-110 transition duration-300" />
