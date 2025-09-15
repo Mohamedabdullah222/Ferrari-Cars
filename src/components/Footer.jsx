@@ -70,7 +70,7 @@ const Footer = () => {
             <FaGithub className="bg-[#1E1E1E] text-white p-1 rounded-lg size-10 cursor-pointer hover:bg-transparent hover:scale-110 transition duration-300" />
           </a>
           <a
-            href="https://www.linkedin.com/in/mohamed-abdullah-ba07682b6/"
+            href="www.linkedin.com/in/mohamed-abdullah-m"
             target="_blank"
           >
             <FaLinkedin className="bg-[#1E1E1E] text-white p-1 rounded-lg size-10 cursor-pointer hover:bg-transparent hover:scale-110 transition duration-300" />
@@ -83,9 +83,9 @@ const Footer = () => {
           </a>
         </div>
 
-        <p className="text-sm text-right md:mt-0">
-          © 2025 Mohamed Abdullah. All Rights Reserved.
-        </p>
+      <p className="py-4 text-center text-xs md:text-sm text-gray-200">
+        Copyright 2025 © <a href="https://ferrari-cars.vercel.app/">Ferrari-Cars</a>. All Right Reserved.
+      </p>
       </div>
     </div>
   );
