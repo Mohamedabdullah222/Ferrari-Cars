@@ -11,7 +11,7 @@ const ContactUs = () => {
   }
 
   return (
-    <div className=" container mx-auto my-20 grid lg:grid-cols-[2fr_1fr] gap-10  ">
+    <div id="contact" className=" container mx-auto my-20 grid lg:grid-cols-[2fr_1fr] gap-10  ">
       <div className="bg-[#1E1E1E] w-full">
         <div className="my-10 px-10">
           <h1 className="text-3xl text-white my-2">

@@ -64,7 +64,7 @@ const Customer = () => {
   ];
 
   return (
-    <div className="py-10 bg-[#444] text-white">
+    <div id="customers" className="py-10 bg-[#444] text-white">
       <div className="flex flex-col items-center text-center mb-6">
         <h1 className="font-medium capitalize text-white text-2xl">
           Customers

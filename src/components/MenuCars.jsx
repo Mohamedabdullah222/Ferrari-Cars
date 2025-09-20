@@ -55,7 +55,7 @@ const MenuCars = () => {
   ];
 
   return (
-    <div id="/menucars" className="container mx-auto py-10 px-3  text-white  ">
+    <div id="menucars" className="container mx-auto py-10 px-3  text-white  ">
       <div className="flex flex-col items-center text-center mb-6">
         <h1 className="font-medium capitalize text-white text-2xl">MenuCars</h1>
         <div className=" bg-orange-400 w-[100px] h-[3px] rounded mt-3 "></div>

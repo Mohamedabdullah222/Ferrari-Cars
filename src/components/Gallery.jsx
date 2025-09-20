@@ -18,7 +18,7 @@ const Gallery = () => {
     { id: 6, img: gallery3 },
   ];
   return (
-    <div id="/Gallery" className="bg-[#444] py-10 px-3">
+    <div id="gallery" className="bg-[#444] py-10 px-3">
       <div className="flex flex-col items-center text-center mb-6">
         <h1 className="font-medium capitalize text-white text-2xl">Gallery</h1>
         <div className=" bg-orange-400 w-[100px] h-[3px] rounded mt-3 "></div>

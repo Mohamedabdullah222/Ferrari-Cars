@@ -7,9 +7,9 @@ const NavBar = () => {
 
   const links = [
     { id: 1, page: "Home", path: "/" },
-    { id: 2, page: "Gallery", path: "/gallery" },
-    { id: 3, page: "MenuCars", path: "/menucars" },
-    { id: 4, page: "Customers", path: "/customers" },
+    { id: 2, page: "Gallery", path: "#gallery" },
+    { id: 3, page: "MenuCars", path: "#menucars" },
+    { id: 4, page: "Customers", path: "#customers" },
   ];
   return (
     <div className="fixed top-0 w-full h-16 rounded-b-lg shadow-lg z-10">
@@ -33,12 +33,15 @@ const NavBar = () => {
         </ul>
 
         <div className="hidden lg:flex items-center gap-4">
-          <button
+          <a href="#contact">
+
+          <button 
             className=" bg-transparent p-2 rounded-full border-[2px] text-white hover:bg-[#444] transition duration-500 font-semibold text-lg
            hover:border-yellow-500"
           >
             ContactUs
           </button>
+          </a>
         </div>
 
         <div className="lg:hidden" onClick={() => setOpenBar(!openBar)}>
